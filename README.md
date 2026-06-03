@@ -1,25 +1,25 @@
 # 🤖 AI Chatbot
 
-Chatbot sederhana berbasis AI yang dibangun dengan **Streamlit** dan **Claude API** (Anthropic).
+A simple AI-powered chatbot built with **Streamlit** and the **Claude API** (Anthropic).
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.35+-red)
 ![Claude](https://img.shields.io/badge/Powered%20by-Claude-orange)
 
-## ✨ Fitur
+## ✨ Features
 
-- 💬 Chat real-time dengan AI (Claude)
-- 🧠 Bisa kustomisasi kepribadian AI lewat System Prompt
-- 🗑️ Tombol clear chat
+- 💬 Real-time chat with AI (Claude)
+- 🧠 Customizable AI personality via System Prompt
+- 🗑️ Clear chat button
 - 🌙 Dark mode UI
 - 📱 Responsive layout
 
-## 🚀 Cara Jalankan
+## 🚀 Getting Started
 
-### 1. Clone repo ini
+### 1. Clone this repo
 ```bash
-git clone https://github.com/username/ai-chatbot.git
-cd ai-chatbot
+git clone https://github.com/enelseem/AI-Chatbot.git
+cd AI-Chatbot
 ```
 
 ### 2. Install dependencies
@@ -27,30 +27,30 @@ cd ai-chatbot
 pip install -r requirements.txt
 ```
 
-### 3. Setup API Key
+### 3. Set up your API Key
 
-Buat file `.env` dari contoh:
+Create a `.env` file from the example:
 ```bash
 cp .env.example .env
 ```
 
-Isi `ANTHROPIC_API_KEY` dengan API key kamu dari [console.anthropic.com](https://console.anthropic.com).
+Fill in your `ANTHROPIC_API_KEY` from [console.anthropic.com](https://console.anthropic.com).
 
-### 4. Jalankan app
+### 4. Run the app
 ```bash
 streamlit run app.py
 ```
 
-Buka browser ke `http://localhost:8501`
+Open your browser at `http://localhost:8501`
 
 ---
 
-## 🌐 Deploy ke Streamlit Cloud (Gratis!)
+## 🌐 Deploy to Streamlit Cloud (Free!)
 
-1. Push repo ini ke GitHub
-2. Buka [streamlit.io/cloud](https://streamlit.io/cloud)
-3. Connect GitHub repo kamu
-4. Di **Secrets**, tambahkan:
+1. Push this repo to GitHub
+2. Go to [streamlit.io/cloud](https://streamlit.io/cloud)
+3. Connect your GitHub repo
+4. Under **Secrets**, add:
 ```toml
 ANTHROPIC_API_KEY = "sk-ant-..."
 ```
@@ -60,8 +60,8 @@ ANTHROPIC_API_KEY = "sk-ant-..."
 
 ## 🛠️ Tech Stack
 
-| Tool | Kegunaan |
-|------|----------|
+| Tool | Purpose |
+|------|---------|
 | [Streamlit](https://streamlit.io) | UI / Frontend |
 | [Anthropic Python SDK](https://github.com/anthropic-ai/anthropic-sdk-python) | Claude API |
 | Python 3.9+ | Backend |
@@ -70,4 +70,4 @@ ANTHROPIC_API_KEY = "sk-ant-..."
 
 ## 📄 License
 
-MIT License — bebas dipakai dan dimodifikasi.
+MIT License — free to use and modify.
